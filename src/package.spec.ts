@@ -1,4 +1,4 @@
-import {TAGS} from './tags';
+import {TAGS} from './package';
 
 describe('TAGS', () => {
     it('contains some keys', () => {

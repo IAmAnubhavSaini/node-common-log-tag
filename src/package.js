@@ -12,4 +12,4 @@ var TAGS = {
     EXECUTE: function (sub) { return " > EXECUTE " + sub + " > "; }
 };
 exports.TAGS = TAGS;
-//# sourceMappingURL=tags.js.map
+//# sourceMappingURL=package.js.map

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var tags_1 = require("./tags");
+var package_1 = require("./package");
 describe('TAGS', function () {
     it('contains some keys', function () {
         var expected = [
@@ -13,8 +13,8 @@ describe('TAGS', function () {
             "WRITE",
             "EXECUTE"
         ].sort();
-        var actual = Object.keys(tags_1.TAGS).sort();
+        var actual = Object.keys(package_1.TAGS).sort();
         expect(actual).toEqual(expected);
     });
 });
-//# sourceMappingURL=tags.spec.js.map
+//# sourceMappingURL=package.spec.js.map

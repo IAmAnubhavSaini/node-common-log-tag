@@ -9,4 +9,4 @@ declare const TAGS: {
     EXECUTE: (sub: string) => string;
 };
 export { TAGS };
-//# sourceMappingURL=tags.d.ts.map
+//# sourceMappingURL=package.d.ts.map
